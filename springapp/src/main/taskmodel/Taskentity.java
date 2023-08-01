@@ -43,3 +43,15 @@ public class Taskentity {
     public void setTaskStatus(String taskStatus){
         this.taskStatus = taskStatus;
     }
+
+    public Taskentity(String taskId, String taskHolderName, String taskDate, String taskName, String taskStatus) {
+        this.taskId = taskId;
+        this.taskHolderName = taskHolderName;
+        this.taskDate = taskDate;
+        this.taskName = taskName;
+        this.taskStatus = taskStatus;
+    }
+  public Taskentity(){
+      
+  }  
+}
